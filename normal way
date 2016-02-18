@@ -1,0 +1,46 @@
+//دي الطريقه العادية المعروفه ومفهاش جافا يعتبر .. اندرويد اكتر منها جافا , دة جزء من برنامج تذكير الاولاني
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000f1f">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:longClickable="false">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginBottom="30dp"
+            android:background="#fd9e23"
+            android:padding="15dp"
+            android:onClick="onButton3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="about me"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginBottom="30dp"
+            android:background="#FDFFFC"
+            android:padding="15dp"
+
+            android:onClick="onButton4" />
+
+    </LinearLayout>
+</RelativeLayout>
