@@ -1,0 +1,17 @@
+
+//اتاكد من ان الكلام كتوب صح لاني مجربتش بس صح المهم الفكرة
+
+  public void ShowMe(View view){
+String btn_text;
+btn_text = ((Button) view).getText().toString();
+
+if (btn_text.eguals("about Me")){
+        Intent intent= new Intent(this ,AboutMe.class);
+        startActivity(intent);
+    }
+    else if (btn_text.eguals("My Email تقريبا")) {
+    Intent intent= new Intent(this ,MyEmail.class);
+        startActivity(intent);
+    }
+    }
+    
