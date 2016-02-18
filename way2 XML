@@ -1,0 +1,47 @@
+// دي بتتعمل بس مش زي الطريقه العادية .. وهي اني بدل ما اعمل لكل زرار اونكليك ميثود  .. 
+// لا بعمل للاثنين نفس الاونكليك وفي الجافا بعمل ميثود واحدة .. وباجي في الميثود دي بعمل زي تشيك كدا لتيكست اللي موجود فيها وعن طريق
+//كد ا ببتدي اتعرف علي الزرار دة .. انا شايف انها مش محبذه بس الاتشيك دي تعلم حاجة جديدة 
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000f1f">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:longClickable="false">
+
+      
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="my Email"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginBottom="30dp"
+            android:background="#fd9e23"
+        
+            android:onClick="ShowME" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="about Me"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_marginBottom="30dp"
+            android:background="#FDFFFC"
+          
+            android:onClick="ShowMe" />
+
+    </LinearLayout>
+</RelativeLayout>
+
